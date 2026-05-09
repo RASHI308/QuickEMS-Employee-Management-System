@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 4000;
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://quick-ems-employee-management-system-ten.vercel.app"
+    "https://quick-ems-employee-management-syste-ten.vercel.app"
   ],
   credentials: true
 }))
