@@ -20,11 +20,7 @@ const PORT = process.env.PORT || 4000;
 
 // Middleware
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://quick-ems-employee-management-syste-ten.vercel.app"
-  ],
-  credentials: true
+  origin: "*"
 }))
 app.use(express.json())
 app.use(multer().none())
